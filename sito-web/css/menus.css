@@ -1,0 +1,74 @@
+/* **********************************/
+/*            MENUs                 */
+/* **********************************/
+/* GENERIC */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* nel caso la finestra diventi troppo piccola */
+    flex-wrap: wrap;
+}
+
+/* MAIN MENU */
+.main-menu{
+    height: 90px;
+    max-width: 1094px;
+    padding-bottom: 25px;
+    align-items:flex-end;
+}
+.main-menu a{
+    min-width: 90px;
+    display: flex;
+    justify-content: center;
+}
+.main-menu a:hover{
+    color: #C0949B;
+}
+.main-menu .active{
+    color:#A4646E;
+}
+.logo{
+    width: 310px;
+    height: 45px;
+}
+/* SUB-MENU */
+.sub-menu{
+    background-color: #A4646E;
+    height: 60px;
+}
+.sub-menu a{
+    color: #0A0F0C;
+}
+.sub-menu a:hover{
+    color: #575051;
+}
+.sub-menu a.active{
+    color: #F5F5F3;
+}
+/* SUB-MENU VARIANT */
+#description-menu{
+    background-color: rgba(10, 15, 12,30%);
+    width: 874px;
+    height: 60px;
+    border-radius: 8px;
+    margin-top: 40px;
+    z-index: 2;
+}
+#description-menu a{
+    color:#F5F5F3;
+}
+#description-menu a:hover{
+    color:#C0949B;
+}
+#description-menu a.active{
+    color: #A4646E;
+}
